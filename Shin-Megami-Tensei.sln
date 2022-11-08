@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shin.Megami.Tensei.API", "Shin.Megami.Tensei.API\Shin.Megami.Tensei.API.csproj", "{C2F1E265-B834-4F80-8483-CA6F9BE38504}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shin.Megami.Tensei.Data", "Shin.Megami.Tensei.Data\Shin.Megami.Tensei.Data.csproj", "{BEEE7F3F-E84D-4954-84CA-249167622F4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shin.Megami.Tensei.DTOs", "Shin.Megami.Tensei.DTOs\Shin.Megami.Tensei.DTOs.csproj", "{7431D005-D2B9-4D64-BD94-197C0A8FF379}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shin.Megami.Tensei.Providers", "Shin.Megami.Tensei.Providers\Shin.Megami.Tensei.Providers.csproj", "{1E0E98FC-F98F-4718-B100-C0134F5008E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shin.Megami.Tensei.Utilities", "Shin.Megami.Tensei.Utilities\Shin.Megami.Tensei.Utilities.csproj", "{1D02A4DD-1E0D-4D56-A690-4ACA99DBCAC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shin.Megami.Tensei.Test.Integration", "Shin.Megami.Tensei.Test.Integration\Shin.Megami.Tensei.Test.Integration.csproj", "{CAB64ABE-9A02-4086-A2E0-E9A803A05E91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shin.Megami.Tensei.Test.Unit", "Shin.Megami.Tensei.Test.Unit\Shin.Megami.Tensei.Test.Unit.csproj", "{BCF57B55-D40A-430A-8BFD-A00009A296AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2F1E265-B834-4F80-8483-CA6F9BE38504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F1E265-B834-4F80-8483-CA6F9BE38504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F1E265-B834-4F80-8483-CA6F9BE38504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F1E265-B834-4F80-8483-CA6F9BE38504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEEE7F3F-E84D-4954-84CA-249167622F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEEE7F3F-E84D-4954-84CA-249167622F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEEE7F3F-E84D-4954-84CA-249167622F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEEE7F3F-E84D-4954-84CA-249167622F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7431D005-D2B9-4D64-BD94-197C0A8FF379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7431D005-D2B9-4D64-BD94-197C0A8FF379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7431D005-D2B9-4D64-BD94-197C0A8FF379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7431D005-D2B9-4D64-BD94-197C0A8FF379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0E98FC-F98F-4718-B100-C0134F5008E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0E98FC-F98F-4718-B100-C0134F5008E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0E98FC-F98F-4718-B100-C0134F5008E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0E98FC-F98F-4718-B100-C0134F5008E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D02A4DD-1E0D-4D56-A690-4ACA99DBCAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D02A4DD-1E0D-4D56-A690-4ACA99DBCAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D02A4DD-1E0D-4D56-A690-4ACA99DBCAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D02A4DD-1E0D-4D56-A690-4ACA99DBCAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB64ABE-9A02-4086-A2E0-E9A803A05E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB64ABE-9A02-4086-A2E0-E9A803A05E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB64ABE-9A02-4086-A2E0-E9A803A05E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB64ABE-9A02-4086-A2E0-E9A803A05E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF57B55-D40A-430A-8BFD-A00009A296AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF57B55-D40A-430A-8BFD-A00009A296AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF57B55-D40A-430A-8BFD-A00009A296AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF57B55-D40A-430A-8BFD-A00009A296AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75743A65-FE77-40E4-B867-DC98A14B24D0}
+	EndGlobalSection
+EndGlobal

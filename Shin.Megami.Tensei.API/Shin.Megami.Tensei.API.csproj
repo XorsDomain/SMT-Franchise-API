@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>4ffe7567-8220-46f4-94cf-df46a90d9f28</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ErrorController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+	  <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="5.0.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.12" />
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.12" />
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.12" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.9">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.11" />
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shin.Megami.Tensei.Data\Shin.Megami.Tensei.Data.csproj" />
+    <ProjectReference Include="..\Shin.Megami.Tensei.DTOs\Shin.Megami.Tensei.DTOs.csproj" />
+    <ProjectReference Include="..\Shin.Megami.Tensei.Providers\Shin.Megami.Tensei.Providers.csproj" />
+    <ProjectReference Include="..\Shin.Megami.Tensei.Utilities\Shin.Megami.Tensei.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\mstonesifer\Training_6-1-21_Code\Training_Team\sports-Theater-api-csharp\src\Shin.Megami.Tensei.API\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\mstonesifer\Training_6-1-21_Code\Training_Team\sports-Theater-api-csharp\src\Shin.Megami.Tensei.API\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Mapper\" />
+  </ItemGroup>
+
+</Project>
