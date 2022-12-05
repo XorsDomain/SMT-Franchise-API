@@ -12,9 +12,9 @@ namespace Shin.Megami.Tensei.Data.Repositories
     /// </summary>
     public class ProductRepository : IProductRepository
     {
-        private readonly IHealthCtx _ctx;
+        private readonly ISMTCtx _ctx;
 
-        public ProductRepository(IHealthCtx ctx)
+        public ProductRepository(ISMTCtx ctx)
         {
             _ctx = ctx;
         }

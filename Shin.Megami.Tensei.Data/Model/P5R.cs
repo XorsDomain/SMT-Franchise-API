@@ -5,13 +5,13 @@ using System.Collections.Generic;
 namespace Shin.Megami.Tensei.Data.Model
 {
     /// <summary>
-    /// This class is a representation of a MegaTen Demon.
+    /// This class is a representation of a Persona5Royal Persona.
     /// </summary>
-    public class MegaTen : BaseEntity
+    public class Persona5Royal : BaseEntity
     {
         public string Name { get; set; }
 
-        public string Race { get; set; }
+        public string Arcana { get; set;}
 
         public string Affinity { get; set; }
 
@@ -26,29 +26,28 @@ namespace Shin.Megami.Tensei.Data.Model
         {
             return JsonConvert.SerializeObject(this);
         }
-        public static IEqualityComparer<MegaTen> MegaTenComparer { get; } = new MegaTenEqualityComparer();
+        public static IEqualityComparer<Persona5Royal> Persona5RoyalComparer { get; } = new Persona5RoyalEqualityComparer();
 
-        private sealed class MegaTenEqualityComparer : IEqualityComparer<MegaTen>
+        private sealed class Persona5RoyalEqualityComparer : IEqualityComparer<Persona5Royal>
         {
-            public bool Equals(MegaTen x, MegaTen y)
+            public bool Equals(Persona5Royal x, Persona5Royal y)
             {
                 if (ReferenceEquals(x, y)) return true;
                 if (ReferenceEquals(x, null)) return false;
                 if (ReferenceEquals(y, null)) return false;
                 if (x.GetType() != y.GetType()) return false;
                 return x.Name == y.Name
-                    && x.Race == y.Race
+                    && x.Arcana == y.Arcana
                     && x.Affinity == y.Affinity
                     && x.StrongestSkill == y.StrongestSkill
                     && x.Level == y.Level
                     && x.Origin == y.Origin;
             }
 
-            public int GetHashCode(MegaTen obj)
+            public int GetHashCode(Persona5Royal obj)
             {
                 var hashCode = new HashCode();
                 hashCode.Add(obj.Name);
-                hashCode.Add(obj.Race);
                 hashCode.Add(obj.Affinity);
                 hashCode.Add(obj.StrongestSkill);
                 hashCode.Add(obj.Level);

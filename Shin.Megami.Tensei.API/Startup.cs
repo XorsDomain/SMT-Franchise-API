@@ -79,7 +79,7 @@ namespace Shin.Megami.Tensei.API
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, HealthCtx db)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, SMTCtx db)
         {
             if (env.IsDevelopment())
             {
