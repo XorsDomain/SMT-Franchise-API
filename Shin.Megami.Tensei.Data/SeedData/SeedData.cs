@@ -20,6 +20,7 @@ namespace Shin.Megami.Tensei.Data.Context
             ///Each compendium will go by order of Arcana.
             ///
             /// This line signifies the start of the Person 5 Royal Compendium.
+            /// Start FOOL Arcana
             var persona5ROne = new Persona5Royal()
             {
                 Id = 1,
@@ -161,6 +162,347 @@ namespace Shin.Megami.Tensei.Data.Context
                 Level = 42,
                 Origin = "English"
             };
-        }
+
+            var persona5RFourteen = new Persona5Royal()
+            {
+                Id = 14,
+                Name = "Bugbear",
+                Arcana = "Fool",
+                Affinity = "Psychic",
+                StrongestSkill = "Psiodyne",
+                Level = 65,
+                Origin = "Celtic"
+            };
+
+            var persona5RFifteen = new Persona5Royal()
+            {
+                Id = 15,
+                Name = "Crystal Skull",
+                Arcana = "Fool",
+                StrongestSkill = "All -dyne skills",
+                Level = 50,
+                Origin = "Pre-Columbian Mesoamerica"
+            };
+
+            var persona5RSixteen = new Persona5Royal()
+            {
+                Id = 16,
+                Name = "Dionysus",
+                Arcana = "Fool",
+                Affinity = "Elec",
+                StrongestSkill = "Maragidyne",
+                Level = 61,
+                Origin = "Greek"
+            };
+
+            var persona5RSeventeen = new Persona5Royal()
+            {
+                Id = 17,
+                Name = "Black Frost",
+                Arcana = "Fool",
+                Affinity = "Ice",
+                StrongestSkill = "Diamond Dust",
+                Level = 67,
+                Origin = "English"
+            };
+
+            var persona5REighteen = new Persona5Royal()
+            {
+                Id = 18,
+                Name = "Vishnu",
+                Arcana = "Fool",
+                Affinity = "Almighty",
+                StrongestSkill = "Megidolaon",
+                Level = 83,
+                Origin = "Hindu"
+            };
+
+            /// Start MAGICIAN Arcana
+
+            var persona5RNineteen = new Persona5Royal()
+            {
+                Id = 19,
+                Name = "Zorro",
+                Arcana = "Magician",
+                Affinity = "Wind",
+                StrongestSkill = "Magarudyne",
+                Level = 1,
+                Origin = "Spanish"
+            };
+
+            var persona5RTwenty = new Persona5Royal()
+            {
+                Id = 20,
+                Name = "Mercurius",
+                Arcana = "Magician",
+                Affinity = "Wind",
+                StrongestSkill = "Magarudyne",
+                Level = 1,
+                Origin = "Roman"
+            };
+
+            var persona5RTwentyOne = new Persona5Royal()
+            {
+                Id = 21,
+                Name = "Diego",
+                Arcana = "Magician",
+                Affinity = "Wind",
+                StrongestSkill = "Magarudyne",
+                Level = 1,
+                Origin = "Spanish"
+            };
+
+            var persona5RoyalTwentyTwo = new Persona5Royal()
+            {
+                Id = 22,
+                Name = "Jack-O-Lantern",
+                Arcana = "Magician",
+                Affinity = "Fire",
+                StrongestSkill = "Agi",
+                Level = 2,
+                Origin = "Irish"
+            };
+
+            var persona5RoyalTwentyThree = new Persona5Royal()
+            {
+                Id = 23,
+                Name = "Cait Sith(Sidhe)",
+                Arcana = "Magician",
+                Affinity = "Fire/Phys",
+                StrongestSkill = "Agi",
+                Level = 2,
+                Origin = "Irish and Scottish"
+            };
+
+            var persona5RoyalTwentyFour = new Persona5Royal()
+            {
+                Id = 24,
+                Name = "Jack Frost",
+                Arcana = "Magician",
+                Affinity = "Ice",
+                StrongestSkill = "Mabufu",
+                Level = 11,
+                Origin = "English"
+            };
+
+            var persona5RoyalTwentyFive = new Persona5Royal()
+            {
+                Id = 25,
+                Name = "Nekomata",
+                Arcana = "Magician",
+                Affinity = "Psy/Phys",
+                StrongestSkill = "Hysterical Slap",
+                Level = 17,
+                Origin = "Japanese"
+            };
+
+            var persona5RoyalTwentySix = new Persona5Royal()
+            {
+                Id = 26,
+                Name = "Sandman",
+                Arcana = "Magician",
+                Affinity = "Wind",
+                StrongestSkill = "Magarula",
+                Level = 23,
+                Origin = "North European"
+            };
+
+            var persona5RoyalTwentySeven = new Persona5Royal()
+            {
+                Id = 27,
+                Name = "Choronzon",
+                Arcana = "Magician",
+                Affinity = "Curse",
+                StrongestSkill = "Eiga",
+                Level = 28,
+                Origin = "English"
+            };
+
+            var persona5RoyalTwentyEight = new Persona5Royal()
+            {
+                Id = 28,
+                Name = "Queen Mab(Medb, Meive)",
+                Arcana = "Magician",
+                Affinity = "Fire/Elec",
+                StrongestSkill = "Agidyne",
+                Level = 43,
+                Origin = "Irish"
+            };
+
+            var persona5RoyalTwentyNine = new Persona5Royal()
+            {
+                Id = 29,
+                Name = "Rangda",
+                Arcana = "Magician",
+                Affinity = "Phys/Curse",
+                StrongestSkill = "Bloodbath/Eigaon",
+                Level = 48,
+                Origin = "Balinese"
+            };
+
+            var persona5RoyalThirty = new Persona5Royal()
+            {
+                Id = 30,
+                Name = "Surt",
+                Arcana = "Magician",
+                Affinity = "Fire",
+                StrongestSkill = "Inferno",
+                Level = 83,
+                Origin = "Norse"
+            };
+
+            var persona5RoyalThirtyOne = new Persona5Royal()
+            {
+                Id = 31,
+                Name = "Forneus",
+                Arcana = "Magician",
+                Affinity = "Psy",
+                StrongestSkill = "Mapsiodyne",
+                Level = 63,
+                Origin = "English"
+            };
+
+            var persona5RoyalThirtyTwo = new Persona5Royal()
+            {
+                Id = 32,
+                Name = "Futsunushi",
+                Arcana = "Magician",
+                Affinity = "Physical",
+                StrongestSkill = "Brave Blade",
+                Level = 86,
+                Origin = "Japanese"
+            };
+
+            var persona5RoyalThirtyThree = new Persona5Royal()
+            {
+                Id = 33,
+                Name = "Johanna",
+                Arcana = "Priestess",
+                Affinity = "Nuke",
+                StrongestSkill = "Atomic Flare",
+                Level = 21,
+                Origin = "Europe"
+            };
+
+            var persona5RoyalThirtyFour = new Persona5Royal()
+            {
+                Id = 34,
+                Name = "Anat",
+                Arcana = "Priestess",
+                Affinity = "Nuke",
+                StrongestSkill = "Atomic Flare",
+                Level = 21,
+                Origin = "Syrian"
+            };
+
+            var persona5RoyalThirtyFive = new Persona5Royal()
+            {
+                Id = 35,
+                Name = "Agnes",
+                Arcana = "Priestess",
+                Affinity = "Nuke",
+                StrongestSkill = "Atomic Flare",
+                Level = 21,
+                Origin = "European"
+            };
+
+            var persona5RoyalThirtySix = new Persona5Royal()
+            {
+                Id = 36,
+                Name = "Silky",
+                Arcana = "Priestess",
+                Affinity = "Ice",
+                StrongestSkill = "Bufu",
+                Level = 6,
+                Origin = "Scottish"
+            };
+
+            var persona5RoyalThirtySeven = new Persona5Royal()
+            {
+                Id = 37,
+                Name = "Apsaras",
+                Arcana = "Priestess",
+                Affinity = "Ice",
+                StrongestSkill = "Bufu",
+                Level = 11,
+                Origin = "Hindu"
+            };
+
+            var persona5RoyalThirtyEight = new Persona5Royal()
+            {
+                Id = 38,
+                Name = "Koh-i-Noor",
+                Arcana = "Priestess",
+                Affinity = "Almighty",
+                StrongestSkill = "All 'Dodge' Skills",
+                Level = 25,
+                Origin = "British"
+            };
+
+            var persona5RoyalThirtyNine = new Persona5Royal()
+            {
+                Id = 39,
+                Name = "Isis",
+                Arcana = "Priestess",
+                Affinity = "Bless/Curse",
+                StrongestSkill = "Zionga/Garula/Agilao",
+                Level = 26,
+                Origin = "Egyptian"
+            };
+
+            var persona5RoyalFourty = new Persona5Royal()
+            {
+                Id = 40,
+                Name = "Kikuri-Hime",
+                Arcana = "Priestess",
+                Affinity = "Bless/Wind",
+                StrongestSkill = "Mediarama",
+                Level = 40,
+                Origin = "Japanese"
+            };
+
+            var persona5RoyalFourtyOne = new Persona5Royal()
+            {
+                Id = 41,
+                Name = "Sarasvati",
+                Arcana = "Priestess",
+                Affinity = "Ice/Elec",
+                StrongestSkill = "Diarahan",
+                Level = 50,
+                Origin = "Hindu"
+            };
+
+            var persona5RoyalFourtyTwo = new Persona5Royal()
+            {
+                Id = 42,
+                Name = "Skadi",
+                Arcana = "Priestess",
+                Affinity = "Ice/Curse",
+                StrongestSkill = "Bufudyne",
+                Level = 53,
+                Origin = "Norse"
+            };
+
+            var persona5RoyalFourtyThree = new Persona5Royal()
+            {
+                Id = 43,
+                Name = "Cybele",
+                Arcana = "Priestess",
+                Affinity = "Fire/Bless",
+                StrongestSkill = "Makougaon/Salvation",
+                Level = 83,
+                Origin = "Greek"
+            };
+
+            var persona5RoyalFourtyFour = new Persona5Royal()
+            {
+                Id = 44,
+                Name = "Scathach",
+                Arcana = "Priestess",
+                Affinity = "Wind/Fire/Phys",
+                StrongestSkill = "Magarula/Maragion",
+                Level = 77,
+                Origin = "Scottish"
+            };
     }
 }
