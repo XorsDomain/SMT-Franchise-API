@@ -17,6 +17,8 @@ namespace Shin.Megami.Tensei.Data.Model
 
         public string StrongestSkill { get; set; }
 
+        public string Weakness { get; set; }
+
         public int Level { get; set; }
 
         public string Origin { get; set; }
@@ -40,6 +42,7 @@ namespace Shin.Megami.Tensei.Data.Model
                     && x.Arcana == y.Arcana
                     && x.Affinity == y.Affinity
                     && x.StrongestSkill == y.StrongestSkill
+                    && x.Weakness == y.Weakness
                     && x.Level == y.Level
                     && x.Origin == y.Origin;
             }
@@ -50,6 +53,7 @@ namespace Shin.Megami.Tensei.Data.Model
                 hashCode.Add(obj.Name);
                 hashCode.Add(obj.Affinity);
                 hashCode.Add(obj.StrongestSkill);
+                hashCode.Add(obj.Weakness);
                 hashCode.Add(obj.Level);
                 hashCode.Add(obj.Origin);
 

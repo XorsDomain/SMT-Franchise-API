@@ -28,6 +28,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Curse",
                 StrongestSkill = "Eigaon",
+                Weakness = "Ice, Bless",
                 Level = 1,
                 Origin = "French"
             };
@@ -39,6 +40,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Almighty",
                 StrongestSkill = "Sinful Shell",
+                Weakness = "None",
                 Level = 95,
                 Origin = "Jewish"
             };
@@ -50,6 +52,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Curse",
                 StrongestSkill = "Phantom Show",
+                Weakness = "Bless",
                 Level = 76,
                 Origin = "French"
             };
@@ -61,6 +64,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Physical",
                 StrongestSkill = "Lucky Punch",
+                Weakness = "Elec",
                 Level = 8,
                 Origin = "Japanese"
             };
@@ -72,6 +76,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Fire",
                 StrongestSkill = "Neo Cadenza",
+                Weakness = "Elec",
                 Level = 11,
                 Origin = "Greek"
             };
@@ -83,6 +88,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Fire",
                 StrongestSkill = "Neo Cadenza",
+                Weakness = "Elec, Curse",
                 Level = 13,
                 Origin = "Greek"
             };
@@ -94,6 +100,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Wind",
                 StrongestSkill = "Diarama",
+                Weakness = "Gun, Nuke",
                 Level = 16,
                 Origin = "Scottish"
             };
@@ -105,6 +112,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Elec",
                 StrongestSkill = "Cross Slash",
+                Weakness = "Wind",
                 Level = 20,
                 Origin = "Japanese"
             };
@@ -116,6 +124,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Elec",
                 StrongestSkill = "Cross Slash",
+                Weakness = "Wind",
                 Level = 23,
                 Origin = "Japanese"
             };
@@ -127,6 +136,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Fire",
                 StrongestSkill = "Cadenza",
+                Weakness = "Elec, Curse",
                 Level = 26,
                 Origin = "Greek"
             };
@@ -138,6 +148,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Fire",
                 StrongestSkill = "Cadenza",
+                Weakness = "Elec, Curse",
                 Level = 29,
                 Origin = "Greek"
             };
@@ -149,6 +160,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Curse",
                 StrongestSkill = "Bloodbath",
+                Weakness = "Bless",
                 Level = 38,
                 Origin = "English"
             };
@@ -159,6 +171,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Name = "Ose",
                 Arcana = "Fool",
                 StrongestSkill = "Heat Wave",
+                Weakness = "Bless",
                 Level = 42,
                 Origin = "English"
             };
@@ -170,6 +183,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Psychic",
                 StrongestSkill = "Psiodyne",
+                Weakness = "Nuke, Fire",
                 Level = 65,
                 Origin = "Celtic"
             };
@@ -180,6 +194,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Name = "Crystal Skull",
                 Arcana = "Fool",
                 StrongestSkill = "All -dyne skills",
+                Weakness = "Wind",
                 Level = 50,
                 Origin = "Pre-Columbian Mesoamerica"
             };
@@ -191,6 +206,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Elec",
                 StrongestSkill = "Maragidyne",
+                Weakness = "None",
                 Level = 61,
                 Origin = "Greek"
             };
@@ -202,6 +218,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Ice",
                 StrongestSkill = "Diamond Dust",
+                Weakness = "None",
                 Level = 67,
                 Origin = "English"
             };
@@ -213,6 +230,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Fool",
                 Affinity = "Almighty",
                 StrongestSkill = "Megidolaon",
+                Weakness = "Fire",
                 Level = 83,
                 Origin = "Hindu"
             };
@@ -226,6 +244,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Wind",
                 StrongestSkill = "Magarudyne",
+                Weakness = "Elec",
                 Level = 1,
                 Origin = "Spanish"
             };
@@ -237,6 +256,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Wind",
                 StrongestSkill = "Magarudyne",
+                Weakness = "Elec",
                 Level = 1,
                 Origin = "Roman"
             };
@@ -248,6 +268,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Wind",
                 StrongestSkill = "Magarudyne",
+                Weakness = "Elec",
                 Level = 1,
                 Origin = "Spanish"
             };
@@ -259,6 +280,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Fire",
                 StrongestSkill = "Agi",
+                Weakness = "Ice, Wind",
                 Level = 2,
                 Origin = "Irish"
             };
@@ -270,6 +292,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Fire/Phys",
                 StrongestSkill = "Agi",
+                Weakness = "Wind",
                 Level = 2,
                 Origin = "Irish and Scottish"
             };
@@ -281,6 +304,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Ice",
                 StrongestSkill = "Mabufu",
+                Weakness = "Fire",
                 Level = 11,
                 Origin = "English"
             };
@@ -292,6 +316,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Psy/Phys",
                 StrongestSkill = "Hysterical Slap",
+                Weakness = "Elec",
                 Level = 17,
                 Origin = "Japanese"
             };
@@ -303,6 +328,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Wind",
                 StrongestSkill = "Magarula",
+                Weakness = "Fire, Elec",
                 Level = 23,
                 Origin = "North European"
             };
@@ -314,6 +340,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Curse",
                 StrongestSkill = "Eiga",
+                Weakness = "Bless",
                 Level = 28,
                 Origin = "English"
             };
@@ -325,6 +352,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Fire/Elec",
                 StrongestSkill = "Agidyne",
+                Weakness = "Wind",
                 Level = 43,
                 Origin = "Irish"
             };
@@ -336,6 +364,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Phys/Curse",
                 StrongestSkill = "Bloodbath/Eigaon",
+                Weakness = "Elec, Bless",
                 Level = 48,
                 Origin = "Balinese"
             };
@@ -347,6 +376,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Fire",
                 StrongestSkill = "Inferno",
+                Weakness = "Ice",
                 Level = 83,
                 Origin = "Norse"
             };
@@ -358,6 +388,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Psy",
                 StrongestSkill = "Mapsiodyne",
+                Weakness = "Elec",
                 Level = 63,
                 Origin = "English"
             };
@@ -369,9 +400,12 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Magician",
                 Affinity = "Physical",
                 StrongestSkill = "Brave Blade",
+                Weakness = "Nuke",
                 Level = 86,
                 Origin = "Japanese"
             };
+
+            ///Start the PRIESTESS Arcana
 
             var persona5RoyalThirtyThree = new Persona5Royal()
             {
@@ -380,6 +414,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Priestess",
                 Affinity = "Nuke",
                 StrongestSkill = "Atomic Flare",
+                Weakness = "Psy",
                 Level = 21,
                 Origin = "Europe"
             };
@@ -391,6 +426,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Priestess",
                 Affinity = "Nuke",
                 StrongestSkill = "Atomic Flare",
+                Weakness = "Psy",
                 Level = 21,
                 Origin = "Syrian"
             };
@@ -402,6 +438,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Priestess",
                 Affinity = "Nuke",
                 StrongestSkill = "Atomic Flare",
+                Weakness = "Psy",
                 Level = 21,
                 Origin = "European"
             };
@@ -413,6 +450,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Priestess",
                 Affinity = "Ice",
                 StrongestSkill = "Bufu",
+                Weakness = "Fire, Elec",
                 Level = 6,
                 Origin = "Scottish"
             };
@@ -424,6 +462,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Priestess",
                 Affinity = "Ice",
                 StrongestSkill = "Bufu",
+                Weakness = "Fire, Elec",
                 Level = 11,
                 Origin = "Hindu"
             };
@@ -435,6 +474,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Priestess",
                 Affinity = "Almighty",
                 StrongestSkill = "All 'Dodge' Skills",
+                Weakness = "Gun",
                 Level = 25,
                 Origin = "British"
             };
@@ -446,6 +486,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Priestess",
                 Affinity = "Bless/Curse",
                 StrongestSkill = "Zionga/Garula/Agilao",
+                Weakness = "Psy",
                 Level = 26,
                 Origin = "Egyptian"
             };
@@ -457,6 +498,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Priestess",
                 Affinity = "Bless/Wind",
                 StrongestSkill = "Mediarama",
+                Weakness = "Fire",
                 Level = 40,
                 Origin = "Japanese"
             };
@@ -468,6 +510,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Priestess",
                 Affinity = "Ice/Elec",
                 StrongestSkill = "Diarahan",
+                Weakness = "Nuke",
                 Level = 50,
                 Origin = "Hindu"
             };
@@ -479,6 +522,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Priestess",
                 Affinity = "Ice/Curse",
                 StrongestSkill = "Bufudyne",
+                Weakness = "Fire",
                 Level = 53,
                 Origin = "Norse"
             };
@@ -490,6 +534,7 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Priestess",
                 Affinity = "Fire/Bless",
                 StrongestSkill = "Makougaon/Salvation",
+                Weakness = "Elec",
                 Level = 83,
                 Origin = "Greek"
             };
@@ -501,8 +546,156 @@ namespace Shin.Megami.Tensei.Data.Context
                 Arcana = "Priestess",
                 Affinity = "Wind/Fire/Phys",
                 StrongestSkill = "Magarula/Maragion",
+                Weakness = "None",
                 Level = 77,
                 Origin = "Scottish"
             };
+
+            ///Star the EMPRESS Arcana
+
+            var persona5RoyalFourtyFive = new Persona5Royal()
+            {
+                Id = 45,
+                Name = "Milady",
+                Arcana = "Empress",
+                Affinity = "Psy",
+                StrongestSkill = "Mapsiodyne/Triple Down",
+                Weakness = "Nuke",
+                Level = 36,
+                Origin = "French"
+            };
+
+            var persona5RoyalFourtySix = new Persona5Royal()
+            {
+                Id = 46,
+                Name = "Astarte",
+                Arcana = "Empress",
+                Affinity = "Psy",
+                StrongestSkill = "Mapsiodyne/Triple Down",
+                Weakness = "Nuke",
+                Level = 36,
+                Origin = "Greek"
+            };
+
+            var persona5RoyalFourtySeven = new Persona5Royal()
+            {
+                Id = 47,
+                Name = "Lucy",
+                Arcana = "Empress",
+                Affinity = "Psy",
+                StrongestSkill = "Mapsiodyne/One-Shot Kill",
+                Weakness = "Nuke",
+                Level = 36,
+                Origin = "Greek"
+            };
+
+            var persona5RoyalFourtyEight = new Persona5Royal()
+            {
+                Id = 48,
+                Name = "Queen's Necklace",
+                Arcana = "Empress",
+                Affinity = "Almighty",
+                StrongestSkill = "-Kaja/-nda Supports, Recarm, Media",
+                Weakness = "Gun, Psy",
+                Level = 15,
+                Origin = "French"
+            };
+
+            var persona5RoyalFourtyNine = new Persona5Royal()
+            {
+                Id = 49,
+                Name = "Yaksini",
+                Arcana = "Empress",
+                Affinity = "Ice",
+                StrongestSkill = "Oni-Kagura",
+                Weakness = "Nuke",
+                Level = 20,
+                Origin = "Hindu"
+            };
+
+            var persona5RoyalFifty = new Persona5Royal()
+            {
+                Id = 50,
+                Name = "Lamia",
+                Arcana = "Empress",
+                Affinity = "Curse/Elec/Gun",
+                StrongestSkill = "Maragion/Rising Slash",
+                Weakness = "Ice, Nuke",
+                Level = 26,
+                Origin = "Greek"
+            };
+
+            var persona5RoyalFiftyOne = new Persona5Royal()
+            {
+                Id = 51,
+                Name = "Hariti",
+                Arcana = "Empress",
+                Affinity = "Psy/Bless",
+                StrongestSkill = "Nocturnal Flash/Mediarama/Samarecarm",
+                Weakness = "Wind",
+                Level = 40,
+                Origin = "Buddhism"
+            };
+
+            var persona5RoyalFiftyTwo = new Persona5Royal()
+            {
+                Id = 52,
+                Name = "Dakini",
+                Arcana = "Empress",
+                Affinity = "Fire",
+                StrongestSkill = "Charge/Rising Slash",
+                Weakness = "None",
+                Level = 40,
+                Origin = "Hindu"
+            };
+
+            var persona5RoyalFiftyThree = new Persona5Royal()
+            {
+                Id = 53,
+                Name = "Titania",
+                Arcana = "Empress",
+                Affinity = "Nuke/Bless/Curse",
+                StrongestSkill = "Mafreidyne/Mediarahan",
+                Weakness = "Psy",
+                Level = 56,
+                Origin = "English"
+            };
+
+            var persona5RoyalFiftyFour = new Persona5Royal()
+            {
+                Id = 54,
+                Name = "Kali",
+                Arcana = "Empress",
+                Affinity = "Fire",
+                StrongestSkill = "Psiodyne/Vorpal Blade",
+                Weakness = "None",
+                Level = 77,
+                Origin = "Hindu"
+            };
+
+            var persona5RoyalFiftyFive = new Persona5Royal()
+            {
+                Id = 55,
+                Name = "Mother Harlot",
+                Arcana = "Empress",
+                Affinity = "Elec/Curse/Ice",
+                StrongestSkill = "Mabufudyne/Mamudoon",
+                Weakness = "Bless",
+                Level = 85,
+                Origin = "Roman"
+            };
+
+            var persona5RoyalFiftySix = new Persona5Royal()
+            {
+                Id = 56,
+                Name = "Alilat",
+                Arcana = "Empress",
+                Affinity = "Ice",
+                StrongestSkill = "Diamond Dust",
+                Weakness = "Fire, Curse",
+                Level = 81,
+                Origin = "Arabian"
+            };
+        }
     }
 }

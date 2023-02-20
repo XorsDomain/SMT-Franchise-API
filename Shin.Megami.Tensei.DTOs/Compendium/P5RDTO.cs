@@ -17,6 +17,8 @@ namespace Shin.Megami.Tensei.DTOs.Persona5Royals
 
         public string StrongestSkill { get; set; }
 
+        public string Weakness { get; set; }
+
         public int Level { get; set; }
 
         public string Origin { get; set; }
